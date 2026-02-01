@@ -1,0 +1,50 @@
+[
+  {
+    "id": "c1",
+    "choreId": "dishes",
+    "personId": "alex",
+    "date": "2026-01-26",
+    "count": 2,
+    "timestamp": "2026-01-26T14:30:00Z"
+  },
+  {
+    "id": "c2",
+    "choreId": "trash",
+    "personId": "alex",
+    "date": "2026-01-25",
+    "count": 1,
+    "timestamp": "2026-01-25T10:15:00Z"
+  },
+  {
+    "id": "c3",
+    "choreId": "laundry",
+    "personId": "luc",
+    "date": "2026-01-26",
+    "count": 1,
+    "timestamp": "2026-01-26T11:00:00Z"
+  },
+  {
+    "id": "c4",
+    "choreId": "bathroom",
+    "personId": "luc",
+    "date": "2026-01-24",
+    "count": 1,
+    "timestamp": "2026-01-24T09:30:00Z"
+  },
+  {
+    "id": "c5",
+    "choreId": "vacuum",
+    "personId": "luc",
+    "date": "2026-01-25",
+    "count": 1,
+    "timestamp": "2026-01-25T15:45:00Z"
+  },
+  {
+    "id": "c6",
+    "choreId": "yard",
+    "personId": "luc",
+    "date": "2026-01-23",
+    "count": 1,
+    "timestamp": "2026-01-23T16:00:00Z"
+  }
+]

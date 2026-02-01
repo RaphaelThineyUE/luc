@@ -1,4 +1,6 @@
-export default function ChoresList({ chores, people, completionsByPerson }) {
+import React from 'react';
+
+export default function ChoresList({ chores, people, completionsByPerson, onRemoveChore }) {
   return (
     <div className="card">
       <div className="card-header">
@@ -11,7 +13,12 @@ export default function ChoresList({ chores, people, completionsByPerson }) {
           return (
             <div key={person.id} className="chores-person">
               <div className="person-heading">
-                <span className="color-dot" style={{ backgroundColor: person.color }} />
+                <span
+                  className="color-dot"
+                  style={{
+                    background: `linear-gradient(135deg, ${person.color}, rgba(255,255,255,0.18))`,
+                  }}
+                />
                 <div>
                   <h3>{person.name}</h3>
                   <p>{completionsByPerson[person.id] || 0} completions</p>
@@ -22,6 +29,7 @@ export default function ChoresList({ chores, people, completionsByPerson }) {
                   <li key={chore.id}>
                     <span>{chore.name}</span>
                     <span>${chore.rate.toFixed(2)}</span>
+                    <button className="btn link" onClick={() => onRemoveChore(chore.id)}>Remove</button>
                   </li>
                 ))}
               </ul>

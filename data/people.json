@@ -1,0 +1,14 @@
+[
+  {
+    "id": "alex",
+    "name": "Alex",
+    "color": "#4f46e5",
+    "allowance": 0
+  },
+  {
+    "id": "luc",
+    "name": "Luc",
+    "color": "#0ea5e9",
+    "allowance": 0
+  } 
+]

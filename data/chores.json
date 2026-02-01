@@ -1,0 +1,38 @@
+[
+  {
+    "id": "dishes",
+    "name": "Dishes",
+    "personId": "alex",
+    "rate": 1.5
+  },
+  {
+    "id": "laundry",
+    "name": "Laundry",
+    "personId": "luc",
+    "rate": 2.0
+  },
+  {
+    "id": "vacuum",
+    "name": "Vacuum",
+    "personId": "luc",
+    "rate": 1.75
+  },
+  {
+    "id": "trash",
+    "name": "Trash & Recycling",
+    "personId": "alex",
+    "rate": 1.0
+  },
+  {
+    "id": "bathroom",
+    "name": "Bathroom",
+    "personId": "luc",
+    "rate": 2.5
+  },
+  {
+    "id": "yard",
+    "name": "Yard",
+    "personId": "luc",
+    "rate": 3.0
+  }
+]
